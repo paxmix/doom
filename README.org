@@ -1,0 +1,6 @@
+#+title: My Config for Doom Emacs
+
+* Install
+#+begin_src shell
+git clone https://github.com/paxmix/doom ~/.config/doom
+#+end_src
