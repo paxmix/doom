@@ -28,10 +28,11 @@
 #+begin_src emacs-lisp
 (setq doom-theme 'doom-tomorrow-night)
 #+end_src
-+ Disable function call italic style.
++ Doom theme custom configs.
 #+begin_src emacs-lisp
 (custom-set-faces!
-  '(font-lock-function-call-face :slant normal))
+  '(font-lock-function-call-face :slant normal)
+  '(font-lock-comment-face :slant italic))
 #+end_src
 ** LSP Settings
 *** Go

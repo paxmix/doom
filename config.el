@@ -4,7 +4,8 @@
 (setq doom-theme 'doom-tomorrow-night)
 
 (custom-set-faces!
-  '(font-lock-function-call-face :slant normal))
+  '(font-lock-function-call-face :slant normal)
+  '(font-lock-comment-face :slant italic))
 
 (after! apheleia
   (setf (alist-get 'go-mode apheleia-mode-alist) 'goimports)
